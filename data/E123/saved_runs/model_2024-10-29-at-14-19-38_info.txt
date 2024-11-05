@@ -1,0 +1,36 @@
+File name: run_models_.py
+Model reference date and time: 2024-10-29-at-14-19-38
+
+Start date: 2024-10-29
+Start time: 14:19
+Total time: 00:03:40
+
+Task: Regression
+Cell line: E123
+Dataset split:
+Training set: 70%
+Validation set: 15%
+Testing set: 15%
+
+Performance:
+Test PCC: 0.8169628586195548
+
+Hyperparameters:
+Number of epochs: 1000
+Learning rate :0.0001
+Number of graph convolutional layers: 2
+Graph convolutional layer size: 256
+Number of linear layers: 3
+Linear hidden layer size: 256
+
+Model's state_dict:
+conv1.lin_l.weight	torch.Size([256, 12])
+conv1.lin_l.bias	torch.Size([256])
+conv2.lin_l.weight	torch.Size([256, 512])
+conv2.lin_l.bias	torch.Size([256])
+lin1.weight	torch.Size([256, 256])
+lin1.bias	torch.Size([256])
+lin2.weight	torch.Size([256, 256])
+lin2.bias	torch.Size([256])
+lin3.weight	torch.Size([1, 256])
+lin3.bias	torch.Size([1])
